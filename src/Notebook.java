@@ -25,9 +25,6 @@ public class Notebook {
 
     @Override
     public String toString() {
-        return "Notebook{" +
-                "producer='" + producer + '\'' +
-                ", model='" + model + '\'' +
-                '}';
+        return  producer + ", " + model;
     }
 }
